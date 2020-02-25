@@ -1,0 +1,59 @@
+body {
+}
+.nav-icon {
+  height: 3rem;
+  width: 4rem;
+}
+.display_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.display_div {
+  height: 18rem;
+  width: 18rem;
+  border: 10px solid rgba(0, 0, 0, 0.849);
+
+  border-radius: 50%;
+}
+.stack_icon {
+  height: 12rem;
+  width: 12rem;
+  padding: 40px;
+}
+.project-background {
+  background-color: rgb(203, 244, 250);
+  border-radius: 50%;
+}
+.my_card {
+  height: 27rem;
+  width: 90rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.stack_img {
+  height: 45px;
+  width: 45px;
+}
+#my_card .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+}
+#my_card:hover .overlay {
+  opacity: 1;
+  color: white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.circle {
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(203, 244, 250);
+  border-radius: 50%;
+  border: 20px solid rgba(11, 70, 104, 0.411);
+}
