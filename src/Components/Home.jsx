@@ -36,24 +36,24 @@ function Home() {
       <div className="p-4 d-flex flex-wrap container ">
         <img
           src="https://cdn.svgporn.com/logos/html-5.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
 
         <img
           src="https://cdn.svgporn.com/logos/github.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/css-3.svg  "
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/bootstrap.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/javascript.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/react.svg"
@@ -61,15 +61,15 @@ function Home() {
         />
         <img
           src="https://cdn.svgporn.com/logos/redux.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/flask.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
         <img
           src="https://cdn.svgporn.com/logos/mysql.svg"
-          className="stack_icon m-auto"
+          className="stack_icon m-auto raise"
         />
       </div>
       <hr />
@@ -79,17 +79,26 @@ function Home() {
         </h2>
         <div className="row container m-auto ">
           <div className="col-md-4 ">
-            <img src="https://santhisrikh.github.io/images/react.png" />
+            <img
+              className="raise"
+              src="https://santhisrikh.github.io/images/react.png"
+            />
             <h2>Front End</h2>
             <p className="lead">JavaScript,React-Redux</p>
           </div>
           <div className="col-md-4">
-            <img src="https://santhisrikh.github.io/images/back.png" />
+            <img
+              className="raise"
+              src="https://santhisrikh.github.io/images/back.png"
+            />
             <h2>Back End</h2>
             <p className="lead">Python,Flask, Mysql</p>
           </div>
           <div className="col-md-4">
-            <img src="https://santhisrikh.github.io/images/data.png" />
+            <img
+              className="raise"
+              src="https://santhisrikh.github.io/images/data.png"
+            />
             <h2>Data Structures</h2>
             <p className="lead">Arrays,Stacks and Queues,Algorithms</p>
           </div>

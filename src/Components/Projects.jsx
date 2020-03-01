@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalander from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
+import { Spring } from "react-spring/renderprops";
 
 function Projects() {
   return (
@@ -98,7 +99,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div class="card my_card col-md-4 p-0" id="my_card">
+            <div class="card my_card border col-md-4 p-0" id="my_card">
               <img className="card-img-top" src="./images/movie.png" />
               <div class="card-body">
                 <h5 class="card-title">THe Movie Hub</h5>
@@ -135,25 +136,25 @@ function Projects() {
       <div className="d-none d-md-block">
         <div className="d-flex justify-content-between container mt-4">
           <div className="text-center">
-            <div className="circle d-flex align-items-center justify-content-center">
+            <div className="circle raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">1000+</h2>
             </div>
             <p className="lead">Hours Of Coding</p>
           </div>
           <div className="text-center">
-            <div className="circle d-flex align-items-center justify-content-center">
+            <div className="circle raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">200+</h2>
             </div>
             <p className="lead">Hackerrank Problems</p>
           </div>
           <div className="text-center">
-            <div className="circle d-flex align-items-center justify-content-center">
+            <div className="circle raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">280+</h2>
             </div>
             <p className="lead">Git Commits</p>
           </div>
           <div className="text-center">
-            <div className="circle d-flex align-items-center justify-content-center">
+            <div className="circle raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">12+</h2>
             </div>
             <p className="lead">Projects</p>
