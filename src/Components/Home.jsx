@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <section>
-      <div className="row container p-4 justify-content-end">
+    <section className="container" id="margin">
+      <div className="row  p-4 justify-content-end">
         <div className="col-md-5 ml-4">
           <h2>Hello, I'M SOUMIK ACHARJEE</h2>
           <h1>Full Stack Developer</h1>
@@ -32,49 +32,70 @@ function Home() {
         </div>
       </div>
       <hr />
-      <h2 className="text-center">Tech Stack</h2>
-      <div className="p-4 d-flex flex-wrap container ">
-        <img
-          src="https://cdn.svgporn.com/logos/html-5.svg"
-          className="stack_icon m-auto raise"
-        />
+      <div
+        data-aos="fade-right"
+        data-aos-offset="400"
+        data-aos-delay="200"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-left"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      >
+        <h2 className="text-center">
+          <strong>Tech Stack</strong>
+        </h2>
+        <div className="p-4 d-flex flex-wrap container ">
+          <img
+            src="https://cdn.svgporn.com/logos/html-5.svg"
+            className="stack_icon m-auto raise"
+          />
 
-        <img
-          src="https://cdn.svgporn.com/logos/github.svg"
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/css-3.svg  "
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/bootstrap.svg"
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/javascript.svg"
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/react.svg"
-          className="stack_icon m-auto"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/redux.svg"
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/flask.svg"
-          className="stack_icon m-auto raise"
-        />
-        <img
-          src="https://cdn.svgporn.com/logos/mysql.svg"
-          className="stack_icon m-auto raise"
-        />
+          <img
+            src="https://cdn.svgporn.com/logos/github.svg"
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/css-3.svg  "
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/bootstrap.svg"
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/javascript.svg"
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/react.svg"
+            className="stack_icon m-auto"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/redux.svg"
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/flask.svg"
+            className="stack_icon m-auto raise"
+          />
+          <img
+            src="https://cdn.svgporn.com/logos/mysql.svg"
+            className="stack_icon m-auto raise"
+          />
+        </div>
       </div>
       <hr />
-      <div className="text-center ">
-        <h2 className="mb-4">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="400"
+        data-aos-delay="200"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-left"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="text-center"
+      >
+        <h2 id="margin" className="mb-4">
           <strong>My Proficiency</strong>
         </h2>
         <div className="row container m-auto ">

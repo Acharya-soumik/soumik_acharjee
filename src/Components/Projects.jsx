@@ -6,7 +6,18 @@ import { Spring } from "react-spring/renderprops";
 function Projects() {
   return (
     <>
-      <section className="text-center project-background">
+      <section
+        data-aos="fade-right"
+        data-aos-offset="400"
+        data-aos-delay="200"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-left"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="text-center"
+        className="text-center project-background"
+        id="margin"
+      >
         <h2>
           <strong>My Projects</strong>
         </h2>
@@ -133,10 +144,19 @@ function Projects() {
         </div>
         {/* section of codeing */}
       </section>
-      <div className="d-none d-md-block">
-        <div className="d-flex justify-content-between container mt-4">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="400"
+        data-aos-delay="200"
+        data-aos-duration="800"
+        id="margin"
+      >
+        <h2 className="text-center">
+          <strong>I Have Complted</strong>
+        </h2>
+        <div className="d-md-flex d-none col-md-10 col-12 justify-content-between container my-4">
           <div className="text-center">
-            <div className="circle raise d-flex align-items-center justify-content-center">
+            <div className="circle  raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">1000+</h2>
             </div>
             <p className="lead">Hours Of Coding</p>
@@ -161,12 +181,26 @@ function Projects() {
           </div>
         </div>
       </div>
-      <h2 className="text-center m-4">Github</h2>
-      <div className="calendar">
-        <GitHubCalander username="Acharya-soumik" color="hsl(203, 82%, 33%)">
-          >
-          <ReactTooltip delayShow={50} html />
-        </GitHubCalander>
+      <div>
+        <div
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-delay="200"
+          data-aos-duration="800"
+        >
+          <h2 id="margin" className="text-center m-4">
+            <strong>Github</strong>
+          </h2>
+          <div className="calendar">
+            <GitHubCalander
+              username="Acharya-soumik"
+              color="hsl(203, 82%, 33%)"
+            >
+              >
+              <ReactTooltip delayShow={50} html />
+            </GitHubCalander>
+          </div>
+        </div>
       </div>
     </>
   );
