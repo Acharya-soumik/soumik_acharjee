@@ -152,7 +152,7 @@ function Projects() {
         id="margin"
       >
         <h2 className="text-center">
-          <strong>I Have Complted</strong>
+          <strong>I Have Compelted</strong>
         </h2>
         <div className="d-md-flex d-none col-md-10 col-12 justify-content-between container my-4">
           <div className="text-center">
