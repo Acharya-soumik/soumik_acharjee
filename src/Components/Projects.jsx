@@ -169,7 +169,7 @@ function Projects() {
           </div>
           <div className="text-center">
             <div className="circle raise d-flex align-items-center justify-content-center">
-              <h2 className="display-4">280+</h2>
+              <h2 className="display-4">300+</h2>
             </div>
             <p className="lead">Git Commits</p>
           </div>

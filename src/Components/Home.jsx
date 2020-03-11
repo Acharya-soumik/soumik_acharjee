@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect, Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,10 +16,27 @@ function Home() {
           </p>
           <hr />
           <div className="row container">
-            <i className="fab mr-2 fa-linkedin fa-2x"></i>
-            <i className="fab mx-2 fa-github fa-2x"></i>
-            <i class="fab fa-hackerrank mx-2 fa-2x"></i>
-            <button className="btn btn-outline-dark mx-2">Download CV</button>
+            <a
+              target="_none"
+              href="https://www.linkedin.com/in/soumik-a-4942b9a3/"
+            >
+              <i className="fab mr-2 fa-linkedin fa-2x"></i>
+            </a>
+            <a target="_none" href="https://github.com/Acharya-soumik">
+              <i className="fab mx-2 fa-github fa-2x"></i>
+            </a>
+            <a
+              target="_none"
+              href="https://www.hackerrank.com/acharjee266?hr_r=1"
+            >
+              <i class="fab fa-hackerrank mx-2 fa-2x"></i>
+            </a>
+            <button
+              onClick={() => alert("download")}
+              className="btn btn-outline-dark mx-2"
+            >
+              Download CV
+            </button>
           </div>
           <p className="mt-4">
             Banglore, India <b> +91 8910373618 </b>
