@@ -145,7 +145,7 @@ function Projects() {
         {/* section of codeing */}
       </section>
       <div
-        data-aos="fade-left"
+        data-aos="fade-rigth"
         data-aos-offset="400"
         data-aos-delay="200"
         data-aos-duration="800"
@@ -154,7 +154,7 @@ function Projects() {
         <h2 className="text-center">
           <strong>I Have Compelted</strong>
         </h2>
-        <div className="d-md-flex d-none col-md-10 col-12 justify-content-between container my-4">
+        <div className="d-md-flex col-md-10 col-12 justify-content-between container my-4">
           <div className="text-center">
             <div className="circle  raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">1000+</h2>
@@ -181,8 +181,9 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="row">
         <div
+          className=" col-12 col-md-12"
           data-aos="zoom-in-up"
           data-aos-offset="200"
           data-aos-delay="200"

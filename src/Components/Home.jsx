@@ -49,7 +49,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <hr />
       <div
         data-aos="fade-right"
         data-aos-offset="400"
