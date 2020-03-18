@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubCalander from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
-import Card from "./Card";
+import ListProject from "./ListProject";
 
 function Projects() {
   return (
@@ -21,8 +21,7 @@ function Projects() {
         <h2>
           <strong>My Projects</strong>
         </h2>
-        <Card />
-        {/* section of codeing */}
+        <ListProject />
       </section>
       <div
         data-aos="fade-rigth"

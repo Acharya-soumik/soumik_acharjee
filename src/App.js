@@ -7,7 +7,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Home from "../src/Components/Home";
 import Projects from "./Components/Projects";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "antd/dist/antd.css";
+import "aos/dist/aos.css";
 // ..
 AOS.init();
 
