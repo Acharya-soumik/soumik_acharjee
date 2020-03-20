@@ -39,3 +39,8 @@
   transform: scale(1.1);
   transition: ease-out 1s;
 }
+.project-icon {
+  height: 1.5rem;
+  width: 2rem;
+  margin: 2px;
+}
