@@ -17,7 +17,7 @@ let antd =
 
 const cardData = [
   {
-    img: "images/meeting.png",
+    img: "images/blog.png",
     name: "Blog Application",
     description:
       "An app where user can create new/edit or delete a blog after logging in. Also user can view other users blogs and also leave a comment",
@@ -26,7 +26,7 @@ const cardData = [
     live: ""
   },
   {
-    img: "",
+    img: "images/folder.png",
     name: "Folder Management",
     description:
       "An app to replicate the folder view in our computers. Users can create new folders. Open a fodler and go back to previous folders. ",
@@ -35,7 +35,7 @@ const cardData = [
     live: ""
   },
   {
-    img: "",
+    img: "images/meeting.png",
     name: "Masai Meeting Rooms",
     description:
       "An app where user can create a meeting room, or book meeting rooms based on availability.",
