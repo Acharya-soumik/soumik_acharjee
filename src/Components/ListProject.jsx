@@ -17,7 +17,7 @@ let antd =
 
 const cardData = [
   {
-    img: "",
+    img: "images/meeting.png",
     name: "Blog Application",
     description:
       "An app where user can create new/edit or delete a blog after logging in. Also user can view other users blogs and also leave a comment",
@@ -40,35 +40,35 @@ const cardData = [
     description:
       "An app where user can create a meeting room, or book meeting rooms based on availability.",
     teckstack: [html, css, bootstrap, react, redux],
-    source: "",
-    live: ""
+    source: "https://github.com/Acharya-soumik/bookmeetingrooms",
+    live: "https://masaimeeting.netlify.com/"
   },
   {
-    img: "",
+    img: "images/comics.png",
     name: "Comics 101",
     description:
       "A comics page using the api xlcd to view multiple comics page.",
     teckstack: [html, css, bootstrap, react, redux],
-    source: "",
-    live: ""
+    source: "https://github.com/Acharya-soumik/Comics",
+    live: "http://comics101.netlify.com/"
   },
   {
-    img: "",
+    img: "images/game.png",
     name: "Gamers Paradise",
     description:
       "A webpage x`that contains most popular games ,that are trending, user can also buy the games.",
     teckstack: [html, css, js, jquery, bootstrap],
-    source: "",
-    live: ""
+    source: "https://github.com/Acharya-soumik/projects/tree/master/sprint-3.1",
+    live: "https://acharya-soumik.github.io/projects/sprint-3.1/"
   },
   {
-    img: "",
+    img: "images/instamojo.png",
     name: "Instamojo Clone",
     description:
       "A clone of the website Instamojo created using bootstrap and minimal css.",
     teckstack: [html, css, bootstrap],
-    source: "",
-    live: ""
+    source: "https://github.com/Acharya-soumik/Instamojo-clone",
+    live: "https://instamojo-clone.netlify.com"
   }
 ];
 
@@ -80,21 +80,13 @@ function ListProject() {
           <Card
             className="my-3 mx-3"
             style={{ width: 350, marginBottom: 10 }}
-            cover={
-              <img
-                alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-              />
-            }
+            cover={<img alt="example" src={ele.img} />}
             actions={[
               <GithubOutlined
                 key="github"
-                onClick={() => window.open("http://www.google.com")}
+                onClick={() => window.open(ele.source)}
               />,
-              <EyeOutlined
-                key="demo"
-                onClick={() => window.open("http://www.google.com")}
-              />
+              <EyeOutlined key="demo" onClick={() => window.open(ele.source)} />
             ]}
           >
             <Meta title={ele.name} description={ele.description} />

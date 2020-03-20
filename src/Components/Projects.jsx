@@ -15,7 +15,7 @@ function Projects() {
         data-aos-mirror="true"
         data-aos-once="false"
         className="text-center"
-        className="text-center project-background"
+        className="text-center project-background "
         id="margin"
       >
         <h2>
@@ -28,6 +28,7 @@ function Projects() {
         data-aos-offset="400"
         data-aos-delay="200"
         data-aos-duration="800"
+        className="container"
         id="margin"
       >
         <h2 className="text-center">
@@ -60,7 +61,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row m-auto container">
         <div
           className=" col-12 col-md-12"
           data-aos="zoom-in-up"

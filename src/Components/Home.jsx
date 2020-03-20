@@ -3,8 +3,8 @@ import { Redirect, Link } from "react-router-dom";
 
 function Home() {
   return (
-    <section className="container" id="margin">
-      <div className="row  p-4 justify-content-end">
+    <section id="margin">
+      <div className="row container justify-content-end">
         <div className="col-md-5 ml-4">
           <h2>Hello, I'M SOUMIK ACHARJEE</h2>
           <h1>Full Stack Developer</h1>
@@ -15,7 +15,7 @@ function Home() {
             in any situation and environment with ease and perform the best.
           </p>
           <hr />
-          <div className="row container">
+          <div className="row">
             <a
               target="_none"
               href="https://www.linkedin.com/in/soumik-a-4942b9a3/"
@@ -32,7 +32,11 @@ function Home() {
               <i class="fab fa-hackerrank mx-2 fa-2x"></i>
             </a>
             <button
-              onClick={() => alert("download")}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/open?id=10ZAXDnk-Ca6ssz8R6k71sZQDKihvAt9c"
+                )
+              }
               className="btn btn-outline-dark mx-2"
             >
               Download CV
@@ -57,6 +61,7 @@ function Home() {
         data-aos-easing="ease-in-left"
         data-aos-mirror="true"
         data-aos-once="false"
+        className="container"
       >
         <h2 className="text-center">
           <strong>Tech Stack</strong>
@@ -66,7 +71,6 @@ function Home() {
             src="https://cdn.svgporn.com/logos/html-5.svg"
             className="stack_icon m-auto raise"
           />
-
           <img
             src="https://cdn.svgporn.com/logos/github.svg"
             className="stack_icon m-auto raise"
@@ -101,7 +105,6 @@ function Home() {
           />
         </div>
       </div>
-      <hr />
       <div
         data-aos="fade-left"
         data-aos-offset="400"
