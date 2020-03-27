@@ -78,9 +78,9 @@ function ListProject() {
       {cardData.map(ele => {
         return (
           <Card
-            className="my-3 mx-3"
+            className="my-3 mx-3 border border-dark shadow-lg"
             style={{ width: 350, marginBottom: 10 }}
-            cover={<img alt="example" src={ele.img} />}
+            cover={<img alt="example" src={ele.img} className="p-1" />}
             actions={[
               <GithubOutlined
                 key="github"
@@ -89,7 +89,11 @@ function ListProject() {
               <EyeOutlined key="demo" onClick={() => window.open(ele.source)} />
             ]}
           >
-            <Meta title={ele.name} description={ele.description} />
+            <Meta
+              title={ele.name}
+              className="text-dark"
+              description={ele.description}
+            />
             <Meta className="my-3" title="Teck stack used :" description="" />
             {ele.teckstack.map(img => (
               <img src={img} className="project-icon" />

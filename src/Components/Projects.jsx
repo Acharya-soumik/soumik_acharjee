@@ -34,27 +34,27 @@ function Projects() {
         <h2 className="text-center">
           <strong>I Have Compelted</strong>
         </h2>
-        <div className="d-md-flex col-md-10 col-12 justify-content-between container my-4">
+        <div className="d-md-flex col-md-10 col-12 justify-content-center container my-4">
           <div className="text-center">
-            <div className="circle  raise d-flex align-items-center justify-content-center">
+            <div className="circle mx-2 raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">1000+</h2>
             </div>
             <p className="lead">Hours Of Coding</p>
           </div>
           <div className="text-center">
-            <div className="circle raise d-flex align-items-center justify-content-center">
+            <div className="circle mx-2 raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">200+</h2>
             </div>
             <p className="lead">Hackerrank Problems</p>
           </div>
           <div className="text-center">
-            <div className="circle raise d-flex align-items-center justify-content-center">
+            <div className="circle mx-2 raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">300+</h2>
             </div>
             <p className="lead">Git Commits</p>
           </div>
           <div className="text-center">
-            <div className="circle raise d-flex align-items-center justify-content-center">
+            <div className="circle mx-2 raise d-flex align-items-center justify-content-center">
               <h2 className="display-4">12+</h2>
             </div>
             <p className="lead">Projects</p>
