@@ -39,7 +39,7 @@ function Home() {
               }
               className="btn btn-outline-dark mx-2"
             >
-              Resume
+              My Resume
             </button>
           </div>
           <p className="mt-4">
