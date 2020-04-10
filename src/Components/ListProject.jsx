@@ -87,10 +87,7 @@ function ListProject() {
                 key="github"
                 onClick={() => window.open(ele.source)}
               />,
-              <EyeOutlined
-                key="demo"
-                onClick={() => window.open(ele.source)}
-              />,
+              <EyeOutlined key="demo" onClick={() => window.open(ele.live)} />,
             ]}
           >
             <Meta
